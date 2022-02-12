@@ -82,7 +82,7 @@ public class editarUsuario extends AppCompatActivity {
             public void onClick(DialogInterface dialog, int which) {
                 // Toast.makeText(fixActivity.this, "He pulsado no", Toast.LENGTH_SHORT).show();
             }
-        });
+        });//
         builder.show(); //
 
 
