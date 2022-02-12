@@ -83,7 +83,7 @@ public class editarUsuario extends AppCompatActivity {
                 // Toast.makeText(fixActivity.this, "He pulsado no", Toast.LENGTH_SHORT).show();
             }
         });
-        builder.show();
+        builder.show(); //holi
 
 
     }

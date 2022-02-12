@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/drawable/celda_lista_alimentos.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/drawable/register_text.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/drawable/text_color_pressed.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_anadir_producto.xml" value="0.31068840579710144" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_anadir_supermercado.xml" value="0.32382246376811596" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_compra.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_configuracion.xml" value="0.25" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_editar_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_lista_compra.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_lista_compras.xml" value="0.25" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_listas_desglosadas.xml" value="0.2" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_login.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_registro.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_seleccionar_supermercado.xml" value="0.30480072463768115" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_supermercados.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/activity_ver_usuario.xml" value="0.22" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/compra_activity.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/content_lista_compra.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/fragment_gallery.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/fragment_home.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/fragment_slideshow.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/layout/nav_header_lista_compra.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/sandr/AndroidStudioProjects/TFGSHG/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23541666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
