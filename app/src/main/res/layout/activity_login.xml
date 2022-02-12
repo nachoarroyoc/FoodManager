@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/registerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A9FFFFFF"
+        android:onClick="loadRegistrarActivity"
+        android:clickable="true"
+        android:text="  Aún no tienes cuenta? Registrate!  "
+        android:textColor="@drawable/register_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="#C6FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/registerText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597">
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="265dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textColor="#9F03DAC5"
+            android:textColorHint="#9F03DAC5" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="265dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="130dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="contraseña"
+            android:inputType="textPassword"
+            android:textColor="#9F03DAC5"
+            android:textColorHint="#9F03DAC5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="265dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="230dp"
+            android:onClick="logearUsuario"
+            android:background="#A9FFFFFF"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textColor="#9F03DAC5"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="172dp"
+            android:background="#9F03DAC5"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="95dp"
+            android:background="#9F03DAC5"
+            android:orientation="horizontal"></LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

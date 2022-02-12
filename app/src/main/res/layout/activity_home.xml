@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".homeActivity">
+
+    <ImageView
+        android:id="@+id/search5"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:background="@drawable/button_color_pressed"
+
+        android:onClick="abrirSeleccionarSupermercado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312"
+        app:srcCompat="@mipmap/listacompra" />
+
+    <ImageView
+        android:id="@+id/search6"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:background="@drawable/button_color_pressed"
+        android:onClick="mostrarSupermercados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        app:srcCompat="@mipmap/supermercado" />
+
+    <ImageView
+        android:id="@+id/search7"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:background="@drawable/button_color_pressed"
+        android:onClick="abrirConfiguracion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        app:srcCompat="@mipmap/comida" />
+
+    <ImageView
+        android:id="@+id/search4"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:background="@drawable/button_color_pressed"
+        android:onClick="abrirListaCompras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312"
+        app:srcCompat="@mipmap/productos" />
+
+    <ImageView
+        android:id="@+id/search3"
+        android:layout_width="89dp"
+        android:layout_height="103dp"
+        android:background="#C6FFFFFF"
+        android:onClick="mostrarCompraMercadona"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974"
+        app:srcCompat="@mipmap/mercadona" />
+
+    <ImageView
+        android:id="@+id/search2"
+        android:layout_width="58dp"
+        android:layout_height="54dp"
+        android:background="#C6FFFFFF"
+        android:onClick="abrirConfiguracion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@mipmap/ajuste" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editarUsuario"
+    android:background="@drawable/wallpaper">
+
+    <ImageView
+        android:id="@+id/search16"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:onClick="returnToConfiguracion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@mipmap/atras" />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="367dp"
+        android:background="#C6FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533">
+
+        <EditText
+            android:id="@+id/editTextNombreEditar"
+            android:layout_width="265dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="nombre"
+            android:textColor="#9F03DAC5"
+            android:textColorHint="#9F03DAC5" />
+
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="95dp"
+            android:background="#9F03DAC5"
+            android:orientation="horizontal"></LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextApellidosEditar"
+            android:layout_width="265dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="130dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="apellidos"
+            android:textColor="#9F03DAC5"
+            android:textColorHint="#9F03DAC5" />
+
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="175dp"
+            android:background="#9F03DAC5"
+            android:orientation="horizontal"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="265dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="280dp"
+            android:background="#A9FFFFFF"
+            android:gravity="center"
+            android:onClick="modificar"
+            android:text="MODIFICAR"
+            android:textColor="#9F03DAC5"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

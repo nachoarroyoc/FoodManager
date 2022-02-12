@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".configuracionActivity"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="265dp"
+        android:layout_height="44dp"
+        android:background="#C6FFFFFF"
+        android:gravity="center"
+        android:onClick="informacionUsuario"
+        android:text="INFORMACIÓN USUARIO"
+        android:textColor="#9F03DAC5"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <ImageView
+        android:id="@+id/search17"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:onClick="returnToHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@mipmap/atras" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="265dp"
+        android:layout_height="44dp"
+        android:background="#C6FFFFFF"
+        android:gravity="center"
+        android:onClick="editarUsuario"
+        android:text="EDITAR USUARIO"
+        android:textColor="#9F03DAC5"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="265dp"
+        android:layout_height="44dp"
+        android:background="#C6FFFFFF"
+        android:gravity="center"
+        android:onClick="cerrarSesion"
+        android:text="CERRAR SESION"
+        android:textColor="#9F03DAC5"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="265dp"
+        android:layout_height="44dp"
+        android:background="#C6FFFFFF"
+        android:gravity="center"
+        android:onClick="eliminarCuenta"
+        android:text="ELIMINAR CUENTA"
+        android:textColor="#9F03DAC5"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+</androidx.constraintlayout.widget.ConstraintLayout>

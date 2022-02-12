@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anadirSupermercadoActivity"
+    android:background="@drawable/wallpaper">
+
+    <FrameLayout
+        android:layout_width="344dp"
+        android:layout_height="313dp"
+        android:layout_marginTop="256dp"
+        android:background="#C6FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imagenSupermercado"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="anadirImagenSupermercado"
+            app:layout_constraintVertical_bias="0.078"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/noimagen" />
+
+        <EditText
+            android:id="@+id/editTextNombreSupermercado"
+            android:layout_width="265dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="130dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="Nombre Supermercado"
+            android:textColor="#9F03DAC5"
+            android:textColorHint="#9F03DAC5" />
+
+        <TextView
+            android:id="@+id/crearSupermercado"
+            android:layout_width="265dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="230dp"
+            android:background="#A9FFFFFF"
+            android:gravity="center"
+            android:onClick="guardarSupermercado"
+            android:text="CREAR SUPERMERCADO"
+            android:textColor="#9F03DAC5"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="175dp"
+            android:background="#9F03DAC5"
+            android:orientation="horizontal"></LinearLayout>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/search10"
+        android:layout_width="185dp"
+        android:layout_height="169dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
+        app:srcCompat="@mipmap/anadirsupermercado" />
+</androidx.constraintlayout.widget.ConstraintLayout>
